@@ -563,6 +563,15 @@ function calcularTotal(player, member, titles) {
 }
 
 // ==========================================
+// ✅ EVENTO: BOT ONLINE
+// ==========================================
+client.once('clientReady', () => {
+  console.log(`✅ Bot online como ${client.user.tag}`);
+  console.log(`📡 Servidores conectados: ${client.guilds.cache.size}`);
+  client.user.setActivity('c!help | Demon Slayer RPG', { type: 3 });
+});
+
+// ==========================================
 // 🎲 TABELAS DE ROLL E DADOS AUXILIARES
 // ==========================================
 const CLAS_HUMANOS_ROLL = [
