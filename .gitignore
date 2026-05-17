@@ -1,0 +1,15 @@
+node_modules/
+players.json
+titles.json
+geral.json
+hashiras.json
+codes.json
+aprendizes.json
+.env
+*.log
+zipFile.zip
+.replit
+replit.nix
+.cache/
+.local/
+.agents/
